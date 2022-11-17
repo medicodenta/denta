@@ -915,6 +915,7 @@ section{
    .banner{
       background-position: left;
 	background-size: cover;
+	margin: auto;
 	
    }
 
