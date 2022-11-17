@@ -873,7 +873,7 @@ section{
 
  .banner{
    background:url(../images/banner-bst.jpg) no-repeat;
-   background-size: contain;
+   background-size: cover;
    background-position: center;
    margin-top: 50px;
    
@@ -914,6 +914,8 @@ section{
 
    .banner{
       background-position: left;
+	background-size: cover;
+	
    }
 
    .banner .content{
@@ -941,9 +943,9 @@ section{
 /* home baground pic styling */
 .arrivals{
    background:url(../images/banner-arrival.jpg) no-repeat;
-   background-size: contain;
+   background-size: cover;
    background-position: center;
-   margin-top: 10px;
+   margin-top: 0;
 
 }
 
@@ -981,6 +983,7 @@ section{
 
    .arrivals{
       background-position: left;
+       background-size: contain;
    }
 
    .arrivals .content{
@@ -990,6 +993,11 @@ section{
 }
 
 @media (max-width:450px){
+
+	.arrivals{
+      background-position: left;
+       background-size: contain;
+   }
 
    
 
