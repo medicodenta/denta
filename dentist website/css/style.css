@@ -943,9 +943,9 @@ section{
 /* home baground pic styling */
 .arrivals{
    background:url(../images/banner-arrival.jpg) no-repeat;
-   background-size: cover;
+   background-size: contain;
    background-position: center;
-   margin-top: 0;
+   margin-top: 10px;
 
 }
 
