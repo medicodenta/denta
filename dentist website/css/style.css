@@ -873,9 +873,9 @@ section{
 
  .banner{
    background:url(../images/banner-bst.jpg) no-repeat;
-   background-size: cover;
+   background-size: contain;
    background-position: center;
-   margin-top: 0px;
+   margin-top: 50px;
    
 
 }
