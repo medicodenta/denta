@@ -130,7 +130,7 @@ section{
 }
 
 .home{
-   background:url(../images/homee.jpeg) no-repeat;
+   background:url(../images/homee.jpg) no-repeat;
    background-size: cover;
    background-position: center;
 
@@ -1045,6 +1045,8 @@ section{
 
    .abtt{
       background-position: left;
+      background-size: contain;
+	height:300px;
    }
 
    .abtt .content{
