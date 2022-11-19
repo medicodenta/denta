@@ -758,11 +758,12 @@ section{
 .cont{
 
    padding: 0;
-   width: 50%;
+   width: 75%;
    margin: auto;
    margin-top: 140px;
    border-radius: 5px;
    /* background-color: #00b8; */
+	height:950px;
 
 }
 
